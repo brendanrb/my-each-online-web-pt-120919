@@ -9,6 +9,6 @@ def my_each(words)
   end 
   words
 else
-  puts "Hey! No block was given!"
+  return "Hey! No block was given!"
 end
 end
