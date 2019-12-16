@@ -1,5 +1,5 @@
 def my_each(words) 
-   if words.size > 0
+   if block_given?
   i = 0 
   
   while i < words.size
